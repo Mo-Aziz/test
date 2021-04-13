@@ -2,7 +2,7 @@ function authenticate(login, password){
 
     if(login === 'login' && password === 'password')
     {
-        return' you are logged in!';
+        return' welcome!';
     }else{
         return 'login process was not successful'
     }
